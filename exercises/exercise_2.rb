@@ -6,3 +6,6 @@ puts "----------"
 
 # Your code goes here ...
 
+@store1 = Store.first
+@store2 = Store.find(2)
+@store1.name = "Coquitlam"
